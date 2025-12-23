@@ -1,7 +1,20 @@
 # Ignore raw data files
 retail_transactions.csv
+
+# Python virtual environments
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data files (keep raw data local)
 *.csv
 *.zip
 
-# Ignore Jupyter checkpoints
-.ipynb_checkpoints/
+# macOS system files
+.DS_Store
